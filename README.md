@@ -5,12 +5,10 @@
 * [Instructions](#instructions)
 * [Contributing](#contributing)
 
-## Instructions
+## Project
 
-To get started, open `designs.js` and start building out the app's functionality.
+The task for this project was to create a simple pixel art maker with which the user could select a grid size and create a pixel image by choosing colors from the color picker and then clicking in the grid.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
-## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+
