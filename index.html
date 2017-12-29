@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<h1><span id="word-one">Pixel</span> <span id="word-two">Art</span> <span id="word-three">Maker</span></h1>
+
+<h2>Grid Size</h2>
+<p>Make a grid between 10 and 30 cells large, and get to creating!</p>
+<p>If you would like to work with a different grid size or start over, just hit Create again.</p>
+<form id="sizePicker">
+    Grid Height:
+    <input type="number" id="input_height" name="height" min="10" max="30" value="10">
+    Grid Width:
+    <input type="number" id="input_width" name="width" min="10" max="30" value="10">
+    <input type="submit" id="submit_button" name="submitbtn" value="Create" onclick="makeGrid()">
+</form>
+
+<h2>Color Picker</h2>
+<input type="color" id="colorPicker">
+
+<h2>Canvas</h2>
+<table id="pixel_canvas"></table>
+
+<script src="designs.js"></script>
+</body>
+</html>
